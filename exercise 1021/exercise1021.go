@@ -47,7 +47,7 @@ func main() {
 			N -= 0.05
 		}else if N >= 0.009 && N < 0.05{
 			moeda01++
-			N -= 0.01
+			N -= 0.1
 		}else{
 			break
 		}
